@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  --main-color: #283526;
+  --primary-color: #888;
+  --button-background: #4b7093;
+  --primary-button-background: #fe7649;
+  --background-color: #e2efff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 2.2rem;
+  line-height: 6rem;
+  text-transform: capitalize;
+}
+
+p,
+a,
+li,
+button {
+  color: var(--primary-color);
+  font-family: "muli";
+}
+
+p{
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-style: normal;
+  font-weight: normal;
+}
+
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+li{
+  list-style: none;
+}
+
+button{
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  line-height: 3.6rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+/*-------------------------------------------------------------------
+-------------------------------------------- our main menue style --------------------------------------------------------------------------*/
+
+
+
+header{
+  padding: 0 20rem;
+}
+
+header nav{
+  
+}
